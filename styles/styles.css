@@ -52,7 +52,7 @@
 	height: 25px;
 }
 
-/* Whoops, the .foo block is commented out! */
+/*PRODUCT*/
 
 .main-container {
 	border: 1px solid black;
@@ -69,13 +69,21 @@
 
 .product-header {
 	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: red;
+	margin: auto;
 }
 
 .product-description {
 	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: aqua;
+	margin: auto;
 }
 
-/* Whoops, the .foo block is commented out! */
+/*FEATURES*/
 
 .feature-block {
 	border: 1px solid black;
@@ -88,43 +96,96 @@
 
 .first-feature {
 	border: 1px solid black;
-	height: 25px;
+	height: 80px;
 	width: 100px;
 	background-color: green;
 }
 
+.first-feature-image {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.first-feature-heading {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.first-feature-description {
+	border: 1px solid black;
+	background-color: white;
+}
+
 .second-feature {
 	border: 1px solid black;
-	height: 25px;
+	height: 80px;
 	width: 100px;
 	background-color: blue;
 }
 
+.second-feature-image {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.second-feature-heading {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.second-feature-description {
+	border: 1px solid black;
+	background-color: white;
+}
+
 .third-feature {
 	border: 1px solid black;
-	height: 25px;
+	height: 80px;
 	width: 100px;
 	background-color: yellow;
 }
 
-/* Whoops, the .foo block is commented out! */
+.third-feature-image {
+	border: 1px solid black;
+	background-color: white;
+}
 
-.team-block {
+.third-feature-heading {
+	border: 1px solid black;
+	background-color: white;
+}
+
+.third-feature-description {
+	border: 1px solid black;
+	background-color: white;
+}
+
+/*TEAM*/
+
+.team-container {
+	border: 1px solid black;
+	height: 150px;
+	background-color: purple;
+	margin: 10px;
+}
+
+.header-team {
+	border: 1px solid black;
+	height: 25px;
+	width: 130px;
+	background-color: orange;
+	margin: auto;
+}
+
+.block-align {
 	border: 1px solid black;
 	height: 100px;
-	background-color: purple;
+	background-color: red;
 	margin: 10px;
 	display: flex;
 	justify-content: space-between;
 }
-/*
-.header-team {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: orange;
-}
-*/
+
 .first-person {
 	border: 1px solid black;
 	height: 25px;
@@ -146,7 +207,7 @@
 	background-color: yellow;
 }
 
-/* Whoops, the .foo block is commented out! */
+/*FORM*/
 
 .work-with-us-block {
 	border: 1px solid black;
