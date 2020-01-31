@@ -188,23 +188,128 @@
 
 .first-person {
 	border: 1px solid black;
-	height: 25px;
+	height: 150px;
 	width: 100px;
 	background-color: green;
 }
 
-.second-person {
+.first-person-image {
 	border: 1px solid black;
 	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.first-person-name {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.first-person-role {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.first-person-description {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.first-person-social {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.second-person {
+	border: 1px solid black;
+	height: 150px;
 	width: 100px;
 	background-color: blue;
 }
 
-.third-person {
+.second-person-image {
 	border: 1px solid black;
 	height: 25px;
 	width: 100px;
+	background-color: white;
+}
+
+.second-person-name {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.second-person-role {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.second-person-description {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.second-person-social {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.third-person {
+	border: 1px solid black;
+	height: 150px;
+	width: 100px;
 	background-color: yellow;
+}
+
+.third-person-image {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.third-person-name {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.third-person-role {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.third-person-description {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
+}
+
+.third-person-social {
+	border: 1px solid black;
+	height: 25px;
+	width: 100px;
+	background-color: white;
 }
 
 /*FORM*/
