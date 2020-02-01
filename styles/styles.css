@@ -385,8 +385,26 @@
 	margin: auto;
 }
 
+/*FOOTER*/
+
 .footer {
 	border: 1px solid black;
 	height: 50px;
 	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.site-map {
+	border: 1px solid black;
+	height: 20px;
+	width: 200px;
+	background-color: yellow;
+}
+
+.copyright {
+	border: 1px solid black;
+	height: 20px;
+	width: 200px;
+	background-color: yellow;
 }
