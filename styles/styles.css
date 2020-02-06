@@ -1,9 +1,10 @@
 /* Whoops, the .foo block is commented out! */
 
 .header-block {
-	border: 1px solid black;
-	height: 150px;
-	background-color: gray;
+position: absolute;
+width: 1440px;
+height: 726px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/rectangle.png"), #C4C4C4;
 }
 
 .social-media-container {
