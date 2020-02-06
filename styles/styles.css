@@ -1,4 +1,12 @@
-/* Whoops, the .foo block is commented out! */
+/*FONT STYLE FOR ALL TEXT ON PAGE*/
+
+*{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*HEADER*/
 
 .header-block {
 	width: 1440px;
@@ -8,31 +16,22 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	background-size: cover;
 }
 
+/*SOCIAL MEDIA*/
+
 .social-media-container {
-	border: 1px solid black;
-	height: 24px;
-	width: 1300px;
-	background-color: blue;
-	margin: 10px;
 	display: flex;
 	justify-content: space-between;
+	font-size: 18px;
+	line-height: 21px;
 }
 
-.name-container{
-	border: 1px solid black;
-	height: 15px;
-	width: 200px;
-	background-color: yellow;
+.social-media-container a{
+	margin: 0 5px;
+	color: white ;
+	text-decoration: none;
 }
 
-.social-media-data{
-	border: 1px solid black;
-	height: 15px;
-	width: 200px;
-	background-color: red;
-}
-
-/* Whoops, the .foo block is commented out! */
+/*HERO*/
 
 .hero-sub-container {
 	width: 50%;
@@ -41,26 +40,29 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .hero-header {
 	background-color: yellow;
-	height: 25px;
 }
 
 .hero-description {
 	background-color: red;
-	height: 25px;
 }
 
 .hero-button-container {
 	background-color: green;
-	height: 25px;
+}
+
+.hero-sub-container a {
+	margin: 5px;
+}
+
+/*MAIN CONTAINER*/
+
+.main-container {
+	width: 1380px;
+	height: 2045px;
+	background-color: green;
 }
 
 /*PRODUCT*/
-
-.main-container {
-	border: 1px solid black;
-	height: 770px;
-	background-color: green;
-}
 
 .product-block {
 	border: 1px solid black;
