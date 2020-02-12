@@ -35,7 +35,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .hero-sub-container {
 	width: 50%;
-	border: 1px solid black;
+	align-content: : center;
 }
 
 .hero-header {
@@ -48,6 +48,11 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .hero-button-container {
 	background-color: green;
+}
+
+.video-button {
+	border: none;
+	background: url(../images/video-button.png);
 }
 
 .hero-sub-container a {
@@ -66,23 +71,23 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .product-block {
 	border: 1px solid black;
-	height: 100px;
+	height: 150px;
 	background-color: orange;
 	margin: 10px;
 }
 
 .product-header {
 	border: 1px solid black;
-	height: 25px;
-	width: 100px;
+	height: 50px;
+	width: 277px;
 	background-color: red;
 	margin: auto;
 }
 
 .product-description {
 	border: 1px solid black;
-	height: 25px;
-	width: 100px;
+	height: 70px;
+	width: 723px;
 	background-color: aqua;
 	margin: auto;
 }
@@ -91,11 +96,11 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .feature-block {
 	border: 1px solid black;
-	height: 100px;
+	height: 300px;
 	background-color: red;
 	margin: 10px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .first-feature {
@@ -113,11 +118,15 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 .first-feature-heading {
 	border: 1px solid black;
 	background-color: white;
+	width: 124px;
+	height: 100px;
 }
 
 .first-feature-description {
 	border: 1px solid black;
 	background-color: white;
+	width: 328px;
+	height: 100px;
 }
 
 .second-feature {
@@ -135,11 +144,15 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 .second-feature-heading {
 	border: 1px solid black;
 	background-color: white;
+	width: 124px;
+	height: 100px;
 }
 
 .second-feature-description {
 	border: 1px solid black;
 	background-color: white;
+	width: 328px;
+	height: 100px;
 }
 
 .third-feature {
@@ -157,26 +170,30 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 .third-feature-heading {
 	border: 1px solid black;
 	background-color: white;
+	width: 124px;
+	height: 100px;
 }
 
 .third-feature-description {
 	border: 1px solid black;
 	background-color: white;
+	width: 328px;
+	height: 100px;
 }
 
 /*TEAM*/
 
 .team-container {
 	border: 1px solid black;
-	height: 250px;
+	height: 500px;
 	background-color: purple;
 	margin: 10px;
 }
 
 .header-team {
 	border: 1px solid black;
-	height: 25px;
-	width: 130px;
+	height: 80px;
+	width: 250px;
 	background-color: orange;
 	margin: auto;
 }
@@ -187,7 +204,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	background-color: red;
 	margin: 10px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .first-person {
