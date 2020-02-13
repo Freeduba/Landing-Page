@@ -4,6 +4,7 @@
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
+	box-sizing: border-box;
 }
 
 /*HEADER*/
@@ -11,7 +12,7 @@
 .header-block {
 	width: 1440px;
 	height: 726px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/rectangle.png"), #C4C4C4;
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/rectangle.png"), #C4C4C4;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -35,25 +36,35 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .hero-sub-container {
 	width: 50%;
-	align-content: : center;
+	padding-left: 50px;
 }
 
-.hero-header {
-	background-color: yellow;
+.hero-sub-container h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 53.2px;
+	line-height: 62px;
+	color: #FFFFFF;
 }
 
-.hero-description {
-	background-color: red;
-}
-
-.hero-button-container {
-	background-color: green;
+.hero-sub-container p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.2px;
+	line-height: 21px;
+	color: #FFFFFF;
 }
 
 .video-button {
 	border: none;
 	padding: 10px 20px;
 	background-color: #F44336;
+	box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+	border-radius: 3px;
+	width: 179px;
+	height: 54px;
 	color: #FFFFFF;
 }
 
@@ -188,9 +199,14 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .first-person-image {
 	border: 1px solid black;
-	height: 200px;
-	width: 200px;
+	/*height: 200px;
+	width: 200px;*/
 	background-color: white;
+}
+
+.first-person-image img {
+	width: 170px;
+	height: 170px;
 }
 
 .first-person-name {
@@ -223,9 +239,14 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .second-person-image {
 	border: 1px solid black;
-	height: 25px;
-	width: 100px;
+	/*height: 25px;
+	width: 100px;*/
 	background-color: white;
+}
+
+.second-person-image img {
+	width: 170px;
+	height: 170px;
 }
 
 .second-person-name {
@@ -258,9 +279,14 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .third-person-image {
 	border: 1px solid black;
-	height: 25px;
-	width: 100px;
+	/*height: 25px;
+	width: 100px;*/
 	background-color: white;
+}
+
+.third-person-image img {
+	width: 170px;
+	height: 170px;
 }
 
 .third-person-name {
