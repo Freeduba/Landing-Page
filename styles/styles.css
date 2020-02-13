@@ -76,22 +76,26 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	height: 150px;
 	background-color: orange;
 	margin: 10px;
+	text-align: center;
 }
 
-.product-header {
-	border: 1px solid black;
-	height: 50px;
-	width: 277px;
-	background-color: red;
-	margin: auto;
+.product-block h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36.4px;
+	line-height: 43px;
+	color: #3C4858;
 }
 
-.product-description {
-	border: 1px solid black;
-	height: 70px;
-	width: 723px;
-	background-color: aqua;
-	margin: auto;
+.product-block p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17.5px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
 }
 
 /*FEATURES*/
@@ -136,58 +140,15 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	background-color: white;
 }
 
-/*.first-feature-heading {
-	border: 1px solid black;
-	background-color: white;
-	width: 124px;
-	height: 100px;
-}*/
-
-/*.first-feature-description {
-	border: 1px solid black;
-	background-color: white;
-	width: 328px;
-	height: 100px;
-}*/
-
 .second-feature-image {
 	border: 1px solid black;
 	background-color: white;
-}
-
-.second-feature-heading {
-	border: 1px solid black;
-	background-color: white;
-	width: 124px;
-	height: 100px;
-}
-
-.second-feature-description {
-	border: 1px solid black;
-	background-color: white;
-	width: 328px;
-	height: 100px;
 }
 
 .third-feature-image {
 	border: 1px solid black;
 	background-color: white;
 }
-
-.third-feature-heading {
-	border: 1px solid black;
-	background-color: white;
-	width: 124px;
-	height: 100px;
-}
-
-.third-feature-description {
-	border: 1px solid black;
-	background-color: white;
-	width: 328px;
-	height: 100px;
-}
-
 
 
 /*TEAM*/
@@ -196,15 +157,17 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	border: 1px solid black;
 	height: 700px;
 	background-color: purple;
+	text-align: center;
 	margin: 10px;
 }
 
-.header-team {
-	border: 1px solid black;
-	height: 80px;
-	width: 250px;
-	background-color: orange;
-	margin: auto;
+.team-container h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36.4px;
+	line-height: 43px;
+	color: #3C4858;
 }
 
 .block-align {
@@ -216,7 +179,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	justify-content: space-around;
 }
 
-.first-person {
+.person {
 	border: 1px solid black;
 	height: 450px;
 	width: 200px;
@@ -258,13 +221,6 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	background-color: white;
 }
 
-.second-person {
-	border: 1px solid black;
-	height: 450px;
-	width: 200px;
-	background-color: blue;
-}
-
 .second-person-image {
 	border: 1px solid black;
 	height: 25px;
@@ -298,13 +254,6 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	height: 25px;
 	width: 100px;
 	background-color: white;
-}
-
-.third-person {
-	border: 1px solid black;
-	height: 450px;
-	width: 200px;
-	background-color: yellow;
 }
 
 .third-person-image {
