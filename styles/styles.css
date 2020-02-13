@@ -97,9 +97,9 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 /*FEATURES*/
 
 .feature-block {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	height: 300px;
-	background-color: red;
+	/*background-color: red;*/
 	margin: 10px;
 	display: flex;
 	justify-content: space-around;
@@ -107,29 +107,48 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .feature {
 	border: 1px solid black;
-	height: 80px;
-	width: 100px;
+	width: 300px;
+	text-align: center;
 	background-color: green;
 }
+
+.feature h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: #3C4858;
+}
+
+.feature p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	color: #999999;
+}
+
 
 .first-feature-image {
 	border: 1px solid black;
 	background-color: white;
 }
 
-.first-feature-heading {
+/*.first-feature-heading {
 	border: 1px solid black;
 	background-color: white;
 	width: 124px;
 	height: 100px;
-}
+}*/
 
-.first-feature-description {
+/*.first-feature-description {
 	border: 1px solid black;
 	background-color: white;
 	width: 328px;
 	height: 100px;
-}
+}*/
 
 .second-feature-image {
 	border: 1px solid black;
@@ -168,6 +187,8 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	width: 328px;
 	height: 100px;
 }
+
+
 
 /*TEAM*/
 
