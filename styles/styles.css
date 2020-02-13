@@ -52,7 +52,9 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .video-button {
 	border: none;
-	background: url(../images/video-button.png);
+	padding: 10px 20px;
+	background-color: #F44336;
+	color: #FFFFFF;
 }
 
 .hero-sub-container a {
@@ -103,7 +105,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	justify-content: space-around;
 }
 
-.first-feature {
+.feature {
 	border: 1px solid black;
 	height: 80px;
 	width: 100px;
@@ -129,13 +131,6 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	height: 100px;
 }
 
-.second-feature {
-	border: 1px solid black;
-	height: 80px;
-	width: 100px;
-	background-color: blue;
-}
-
 .second-feature-image {
 	border: 1px solid black;
 	background-color: white;
@@ -153,13 +148,6 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	background-color: white;
 	width: 328px;
 	height: 100px;
-}
-
-.third-feature {
-	border: 1px solid black;
-	height: 80px;
-	width: 100px;
-	background-color: yellow;
 }
 
 .third-feature-image {
@@ -185,7 +173,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .team-container {
 	border: 1px solid black;
-	height: 500px;
+	height: 700px;
 	background-color: purple;
 	margin: 10px;
 }
@@ -200,7 +188,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .block-align {
 	border: 1px solid black;
-	height: 200px;
+	height: 500px;
 	background-color: red;
 	margin: 10px;
 	display: flex;
@@ -209,15 +197,15 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .first-person {
 	border: 1px solid black;
-	height: 150px;
-	width: 100px;
+	height: 450px;
+	width: 200px;
 	background-color: green;
 }
 
 .first-person-image {
 	border: 1px solid black;
-	height: 25px;
-	width: 100px;
+	height: 200px;
+	width: 200px;
 	background-color: white;
 }
 
@@ -251,8 +239,8 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .second-person {
 	border: 1px solid black;
-	height: 150px;
-	width: 100px;
+	height: 450px;
+	width: 200px;
 	background-color: blue;
 }
 
@@ -293,8 +281,8 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 
 .third-person {
 	border: 1px solid black;
-	height: 150px;
-	width: 100px;
+	height: 450px;
+	width: 200px;
 	background-color: yellow;
 }
 
@@ -429,3 +417,4 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("
 	width: 200px;
 	background-color: yellow;
 }
+
