@@ -121,10 +121,10 @@
 }
 
 .feature {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	width: 300px;
+	background-color: green;*/
 	text-align: center;
-	background-color: green;
 }
 
 .feature h3 {
@@ -147,18 +147,18 @@
 
 
 .first-feature-image {
-	border: 1px solid black;
-	background-color: white;
+	/*border: 1px solid black;
+	background-color: white;*/
 }
 
 .second-feature-image {
-	border: 1px solid black;
-	background-color: white;
+	/*border: 1px solid black;
+	background-color: white;*/
 }
 
 .third-feature-image {
-	border: 1px solid black;
-	background-color: white;
+	/*border: 1px solid black;
+	background-color: white;*/
 }
 
 
@@ -182,9 +182,9 @@
 }
 
 .block-align {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	height: 500px;
-	background-color: red;
+	background-color: red;*/
 	margin: 10px;
 	display: flex;
 	justify-content: space-around;
@@ -193,10 +193,10 @@
 /*PERSON DETAILS*/
 
 .person {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	height: 450px;
 	width: 400px;
-	background-color: green;
+	background-color: green;*/
 }
 
 .first-person-image img {
@@ -215,10 +215,10 @@
 }
 
 .person-name {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	height: 25px;
 	width: 100px;
-	background-color: white;
+	background-color: white;*/
 }
 
 .person-name h2 {
@@ -231,10 +231,10 @@
 }
 
 .person-role {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	height: 25px;
 	width: 100px;
-	background-color: white;
+	background-color: white;*/
 }
 
 .person-role h3 {
@@ -247,10 +247,10 @@
 }
 
 .person-description {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	height: 25px;
 	width: 100px;
-	background-color: white;
+	background-color: white;*/
 }
 
 .person-description p {
@@ -264,10 +264,10 @@
 }
 
 .person-social {
-	border: 1px solid black;
+	/*border: 1px solid black;
 	height: 25px;
 	width: 100px;
-	background-color: white;
+	background-color: white;*/
 }
 
 /*FORM*/
