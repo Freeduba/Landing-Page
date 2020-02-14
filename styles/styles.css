@@ -190,18 +190,13 @@
 	justify-content: space-around;
 }
 
+/*PERSON DETAILS*/
+
 .person {
 	border: 1px solid black;
 	height: 450px;
-	width: 200px;
+	width: 400px;
 	background-color: green;
-}
-
-.first-person-image {
-	border: 1px solid black;
-	/*height: 200px;
-	width: 200px;*/
-	background-color: white;
 }
 
 .first-person-image img {
@@ -209,79 +204,9 @@
 	height: 170px;
 }
 
-.first-person-name {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.first-person-role {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.first-person-description {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.first-person-social {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.second-person-image {
-	border: 1px solid black;
-	/*height: 25px;
-	width: 100px;*/
-	background-color: white;
-}
-
 .second-person-image img {
 	width: 170px;
 	height: 170px;
-}
-
-.second-person-name {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.second-person-role {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.second-person-description {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.second-person-social {
-	border: 1px solid black;
-	height: 25px;
-	width: 100px;
-	background-color: white;
-}
-
-.third-person-image {
-	border: 1px solid black;
-	/*height: 25px;
-	width: 100px;*/
-	background-color: white;
 }
 
 .third-person-image img {
@@ -289,28 +214,56 @@
 	height: 170px;
 }
 
-.third-person-name {
+.person-name {
 	border: 1px solid black;
 	height: 25px;
 	width: 100px;
 	background-color: white;
 }
 
-.third-person-role {
+.person-name h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18.2px;
+	line-height: 21px;
+	color: #3C4858;
+}
+
+.person-role {
 	border: 1px solid black;
 	height: 25px;
 	width: 100px;
 	background-color: white;
 }
 
-.third-person-description {
+.person-role h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13.65px;
+	line-height: 16px;
+	color: #777777;
+}
+
+.person-description {
 	border: 1px solid black;
 	height: 25px;
 	width: 100px;
 	background-color: white;
 }
 
-.third-person-social {
+.person-description p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #999999;
+}
+
+.person-social {
 	border: 1px solid black;
 	height: 25px;
 	width: 100px;
