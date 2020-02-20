@@ -272,16 +272,36 @@
 
 /*FORM*/
 
+.header-work h1 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36.4px;
+	line-height: 43px;
+	text-align: center;
+	color: #3C4858;
+}
+
+.little-text p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18.2px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
+}
+
 .work-with-us-block {
 	border: 1px solid black;
-	height: 260px;
+	height: 500px;
 	background-color: aqua;
 	margin: 10px;
 }
 
 .header-work {
 	border: 1px solid black;
-	height: 25px;
+	height: 70px;
 	width: 500px;
 	background-color: orange;
 	margin: auto;
@@ -289,7 +309,7 @@
 
 .little-text {
 	border: 1px solid black;
-	height: 25px;
+	height: 100px;
 	width: 500px;
 	background-color: red;
 	margin: auto;
