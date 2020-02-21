@@ -31,12 +31,13 @@ body {
 .social-media-container {
 	display: flex;
 	justify-content: space-between;
-	font-size: 18px;
-	line-height: 21px;
+	padding: 50px;
+	/*font-size: 18px;
+	line-height: 21px;*/
 }
 
 .social-media-container a{
-	margin: 0 5px;
+	margin: 0 10px;
 	color: white ;
 	text-decoration: none;
 }
@@ -45,7 +46,7 @@ body {
 
 .hero-sub-container {
 	width: 50%;
-	padding-left: 50px;
+	padding: 100px;
 }
 
 .hero-sub-container h1 {
