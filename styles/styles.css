@@ -47,6 +47,11 @@ body {
 	margin: 0 10px;
 }
 
+.download-button-controller {
+	/*display: flex;
+	justify-content: center;*/
+}
+
 /*HERO*/
 
 .hero-sub-container {
@@ -91,11 +96,13 @@ body {
 
 /*MAIN CONTAINER*/
 
-.main-container {     /*put shadow and border radius*/
+.main-container {
 	width: 1200px;
 	background-color: white;
 	margin: 0 auto;
 	margin-top: -50px;
+	box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
 }
 
 /*PRODUCT*/
