@@ -43,9 +43,22 @@ body {
 	text-decoration: none;
 }
 
+.social-panel {
+	display: flex;
+}
+
 .social-panel a {
 	margin: 0 10px;
 }
+
+.download-button-controller {
+	display: flex;
+}
+
+.download-button-controller img {
+	margin-right: 5px;
+}
+
 
 /*HERO*/
 
@@ -83,6 +96,10 @@ body {
 	color: #FFFFFF;
 	display: flex;
 	justify-content: center;
+}
+
+.video-button img {
+	margin-right: 5px;
 }
 
 .hero-sub-container a {
@@ -345,7 +362,10 @@ input[type=text] {
 
 .footer {
 	height: 50px;
-	background-color: #E5E5E5;
+	margin-top: -17px;
+}
+
+.footer-controller {
 	display: flex;
 	justify-content: space-between;
 }
